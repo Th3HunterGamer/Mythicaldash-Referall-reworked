@@ -32,3 +32,15 @@ You will need to connect to your MySQL/MariaDB server to create a new table.
 ```bash
 # Replace YOUR_USERNAME with your database user (e.g., root)
 mysql -u YOUR_USERNAME -p
+CREATE TABLE pending_referrals (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_uuid VARCHAR(255) NOT NULL,
+  referrer_uuid VARCHAR(255) NOT NULL
+);
+```
+
+### 2. Replace the following files with the ones in this repository
+```bash
+/var/www/mythicaldash-v3/backend/app/Api/User/Auth/Register.php
+/var/www/mythicaldash-v3/backend/app/Api/User/Auth/Register.php
+```
