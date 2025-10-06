@@ -1,5 +1,4 @@
 <?php
-//(The full, corrected Verify.php content will go here)
 use MythicalDash\App;
 use MythicalDash\Chat\User\User;
 use MythicalDash\Middleware\Firewall;
