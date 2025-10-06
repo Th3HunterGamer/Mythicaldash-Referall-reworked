@@ -27,4 +27,8 @@ This rework modifies the process to delay the referral reward until after a new 
 
 ### 1. Connect to Your Database
 
-You will need to connect to your MySQL/MariaDB server to
+You will need to connect to your MySQL/MariaDB server to create a new table.
+
+```bash
+# Replace YOUR_USERNAME with your database user (e.g., root)
+mysql -u YOUR_USERNAME -p
